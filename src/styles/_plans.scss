@@ -1,6 +1,10 @@
+@use 'variaveis';
+
 .plans {
     padding: 5.6vw;
-    
+    background-color: variaveis.$corDeFundo;
+    overflow-x: hidden;
+
 
     h2 {
         text-align: center;
@@ -8,7 +12,9 @@
 
     &__list {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 24px; 
+        flex-wrap: wrap; 
         margin-top: 50px;
 
         @media (max-width: 768px) {
@@ -16,8 +22,55 @@
             margin-top: 0;
         }
 
-        .button {
+        &__item {
+        text-align: center;
+        padding: 44px;
+        max-width: 550px; 
+        width: 100%;
+        border: 2px solid variaveis.$corTextoSecundario;
+        border-radius: 6px;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        flex-grow: 1; 
+
+        @media (max-width: 768px) {
+            max-width: 100%; 
+            margin-bottom: 24px; 
+        }
+
+        &:nth-child(2) {
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-position: center;
+            border: 2px solid #6b8e23;
+        }
+
+        img {
+            width: 100%; 
+            height: 300px; 
+            object-fit: cover;  
+            object-position: center; 
+        }
+
+        strong {
+            display: block;
             margin-top: 24px;
+        }
+        }
+    }
+
+    .button {
+        margin-top: 24px;
+        background-color: variaveis.$corDeFundoBotaoSecundario;
+        border: 2px solid variaveis.$corTextoSecundario;
+        color: variaveis.$corTextoSecundario;
+        text-transform: uppercase;
+        padding: 12px 24px;
+        font-size: 18px;
+        font-family: "Ringbearer", sans-serif;
+
+        &:hover {
+            background-color: variaveis.$corDeFundoBotaoPrimario;
         }
 
         &__item {
@@ -25,15 +78,20 @@
             padding: 60px 44px 44px;
             max-width: 380px;
             width: 100%;
+            border: 2px solid variaveis.$corTextoSecundario;
+            border-radius: 6px;
+            background-color: rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
             @media (max-width: 768px) {
                 padding: 44px 44px 44px;
             }
 
             &:nth-child(2) {
-                background-image: url(../assets/fundo_combo_plus.png);  
-                background-repeat: no-repeat;  
-                background-size: contain;                            
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                border: 2px solid #6b8e23;
             }
 
             img {
@@ -43,7 +101,7 @@
             strong {
                 display: block;
                 margin-top: 24px;
-            }        
+            }
         }
     }
 

@@ -4,330 +4,209 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Réplica Disney+</title>
+    <title>Senhor dos Anéis - A Terra Média no Streaming</title>
     <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="icon" href="./dist/assets/logo.jpg">
 </head>
+
 <body>
     <header class="header">
         <div class="header__container">
             <h1>
-                <img class="header__logo" src="./dist/assets/disneyplus.svg" alt="Disney+">
-            </h1>     
+                <img class="header__logo" src="./dist/assets/logo.jpg" alt="Senhor dos Anéis">
+            </h1>
             <ul class="header__links">
                 <li class="header__links__item">
-                    <a href="#" class="button button--secondary">Assine agora</a>
+                    <a href="#" class="button button--secondary">Junte-se à Jornada</a>
                 </li>
                 <li class="header__links__item">
-                    <a href="#" class="button button--dark">Entrar</a>
+                    <a href="#" class="button button--dark">Entrar no Conclave</a>
                 </li>
-            </ul>       
+            </ul>
         </div>
     </header>
+
     <section class="hero">
         <div class="hero__content">
-            <div class="hero__content__branding">
-                <img src="./dist/assets/disneyplus.svg" alt="Disney+">
-            </div>
             <h3 class="title--small">
-                As melhores histórias em um só lugar.
+                Descubra os Mistérios da Terra Média.
             </h3>
             <p>
-                <a href="#" class="link-text">Assinar o Disney+</a>
+                <a href="#" class="link-text">Assine agora e viaje com a gente</a>
                 <br>
                 <span class="text">
-                    R$ 27,90/mês ou R$ 279,90/ano à vista*
+                    R$ 29,90/mês ou R$ 299,90/ano à vista*
                 </span>
             </p>
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
-                    <img src="./dist/assets/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+" />
                     <button class="button">Assine Agora</button>
-                    <span class="text">R$ 45,90/mês*</span>
+                    <span class="text">R$ 49,90/mês*</span>
                 </li>
                 <li class="hero__content__combos__combo">
-                    <img src="./dist/assets/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+" />
                     <button class="button">Assine Agora</button>
-                    <span class="text">R$ 55,90/mês*</span>
+                    <span class="text">R$ 69,90/mês*</span>
                 </li>
             </ul>
             <p class="text--small">
-                *O preço pode variar caso a assinatura seja feita através de outras plataformas.
+                *O preço pode variar de acordo com a plataforma utilizada.
             </p>
         </div>
     </section>
     <section class="shows">
         <nav class="shows__tabs">
             <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
-                Em breve
+                Terra Média
             </button>
             <button data-tab-button="populares" class="shows__tabs__button">
-                Mais populares
+                Mais Populares
             </button>
-            <button data-tab-button="star_plus" class="shows__tabs__button">
-                Mais no Star+
+            <button data-tab-button="hobbit" class="shows__tabs__button">
+                O Hobbit
             </button>
         </nav>
         <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
             <li class="shows__list__item">
-                <img src="./dist/assets/em_breve/spidey.jpg" alt="Spidey" />
+                <img src="./dist/assets/sauron.png" alt="Olho de Sauron" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/em_breve/desencantada.jpg" alt="Desencantada" />
+                <img src="./dist/assets/gandalf.jpg" alt="Gandalf, o Cinza" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/em_breve/lobisomem.jpg" alt="Lobisomem" />
+                <img src="./dist/assets/frodo.jpg" alt="Frodo" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/em_breve/sem_limites.jpg" alt="Sem Limites" />
+                <img src="./dist/assets/aragorn.jpg" alt="Aragorn, o Rei" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/em_breve/the_santa_clauses.jpg" alt="Papai Noel" />
+                <img src="./dist/assets/legolas.jpeg" alt="Legolas, o arqueiro" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/em_breve/willow.jpg" alt="Willow" />
+                <img src="./dist/assets/gollum.jpg" alt="Gollum" />
             </li>
-        </ul>
+            <li class="shows__list__item">
+                <img src="./dist/assets/saruman.jpeg" alt="Saruman" />
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/assets/boromir.jpg" alt="Boromir" />
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/assets/galadriel.jpg" alt="Galadriel, a Senhora de Lórien" />
+            </li>
+        </ul>        
         <ul data-tab-id="populares" class="shows__list">
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_populares/bluey.jpg" alt="Bluey" />
+                <img src="./dist/assets/lord_of_the_rings.jpg" alt="Senhor dos Anéis" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_populares/cavaleira_da_lua.jpg" alt="Cavaleira Da Lua" />
+                <img src="./dist/assets/the_two_towers.jpg" alt="As Duas Torres" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_populares/o_incrivel_dr_pol.jpg" alt="O Incrível Dr. Pol" />
+                <img src="./dist/assets/the_return_of_the_king.jpg" alt="O Retorno do Rei" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_populares/obi_wan.jpg" alt="Obi Wan" />
+                <img src="./dist/assets/silmarillion.jpg" alt="O Silmarillion" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_populares/red.jpg" alt="Red" />
+                <img src="./dist/assets/hurin.jpg" alt="Os Filhos de Húrin" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_populares/tudo_igual_sqn.jpg" alt="Tudo Igual Só Que Não" />
-            </li>
-        </ul>
-        <ul data-tab-id="star_plus" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/assets/mais_no_star_plus/libertadores.jpg" alt="Libertadores" />
+                <img src="./dist/assets/beren_luthien.jpg" alt="Beren e Lúthien" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_no_star_plus/belair.jpg" alt="Belair" />
+                <img src="./dist/assets/contos_inacabados.jpg" alt="Contos Inacabados" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_no_star_plus/nba.jpg" alt="NBA" />
+                <img src="./dist/assets/shadow_of_mordor.jpg" alt="A Sombra de Mordor (Jogo)" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_no_star_plus/os_simpson.jpg" alt="Os Simpsons" />
+                <img src="./dist/assets/war_of_the_ring.jpg" alt="A Guerra do Anel (Tabuleiro)" />
+            </li>
+        </ul>        
+        <ul data-tab-id="hobbit" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/assets/the_hobbit_1.jpg" alt="O Hobbit: Uma Jornada Inesperada" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_no_star_plus/premier_league.jpg" alt="Premier League" />
+                <img src="./dist/assets/the_hobbit_2.jpg" alt="O Hobbit: A Desolação de Smaug" />
             </li>
             <li class="shows__list__item">
-                <img src="./dist/assets/mais_no_star_plus/the_kardashians.jpg" alt="The Kardashians" />
+                <img src="./dist/assets/the_hobbit_3.jpg" alt="O Hobbit: A Batalha dos Cinco Exércitos" />
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/assets/bilbo_map.jpg" alt="Bilbo e o mapa de Erebor" />
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/assets/thorin.jpg" alt="Thorin Escudo de Carvalho" />
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/assets/beorn.jpg" alt="Beorn, o troca-peles" />
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/assets/dwarves.jpg" alt="Os anões e sua jornada" />
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/assets/smaug.jpg" alt="Smaug e a Montanha Solitária" />
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/assets/radagast.jpg" alt="Radagast, o Marrom" />
             </li>
         </ul>
     </section>
     <section class="plans">
-        <h2 class="title--big">Escolha seu plano</h2>
+        <h2 class="title--big">Escolha seu plano e embarque nessa aventura</h2>
         <ul class="plans__list">
             <li class="plans__list__item">
-                <img src="./dist/assets/logos/disneyplus_underline.png" alt="Logo Disney+" />
-                <strong class="title--small">R$ 27,90/mês</strong>
+                <img src="./dist/assets/plan_basic.jpg" alt="Plano Básico" />
+                <strong class="title--small">R$ 29,90/mês</strong>
                 <p class="text--big">
-                    No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
+                    Todos os filmes e séries da Terra Média em sua melhor forma. Aventure-se com seus personagens favoritos.
                 </p>
                 <button class="button">Assine agora</button>
             </li>
             <li class="plans__list__item">
-                <img src="./dist/assets/logos/disney_star_plus_sm.png" alt="Logo Disney+" />
-                <strong class="title--small">R$ 45,90/mês</strong>
+                <img src="./dist/assets/plan_combo.jpg" alt="Plano Combo" />
+                <strong class="title--small">R$ 49,90/mês</strong>
                 <p class="text--big">
-                    Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
+                    Aventure-se pelo Senhor dos Anéis e O Hobbit, com todos os filmes e conteúdo exclusivo.
                 </p>
                 <button class="button">Assine agora</button>
             </li>
             <li class="plans__list__item">
-                <img src="./dist/assets/logos/disney_star_plus_starzplay_underline.png" alt="Logo Disney+" />
-                <strong class="title--small">R$ 55,90/mês</strong>
+                <img src="./dist/assets/plan_all.jpg" alt="Plano Todos os Filmes" />
+                <strong class="title--small">R$ 69,90/mês</strong>
                 <p class="text--big">
-                    Disney+, Star+ e STARZPLAY em um plano especial. Assine agora os três serviços juntos.
+                    Todos os filmes, documentários e conteúdos bônus sobre a Terra Média e seus heróis.
                 </p>
                 <button class="button">Assine agora</button>
             </li>
         </ul>
-        <p class="text--small">
-            *O preço pode variar caso a assinatura seja feita através de outras plataformas.
-        </p>
     </section>
     <section class="image-text-section">
-        <img src="./dist/assets/tv_pc_tablet_celular.png" alt="Imagem com TV, computador, tablet e celular">
+        <img src="./dist/assets/fundo_terra_media.png" alt="A Terra Média em 4K">
         <div class="image-text-section__text_container">
-            <h2 class="title">Assista do seu jeito</h2>
+            <h2 class="title">Assista à Terra Média em 4K</h2>
             <p class="text--big">
-                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de
-                títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4
-                telas ao mesmo tempo.
+                A magia da Terra Média ganha vida em 4K! Viaje por paisagens épicas e viva os momentos mais emocionantes da história de Tolkien.
             </p>
         </div>
-    </section>
-    <section class="image-text-section image-text-section--image-full-width">
-        <picture>
-            <source media="(max-width: 768px)" srcset="./dist/assets/fundo_rei_leao_celular.png" />
-            <img src="./dist/assets/fundo_rei_leao.png" alt="Rei Leão">
-        </picture>
-        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
-            <h2 class="title">Baixe filmes e séries</h2>
-            <p class="text--big">
-                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem
-                internet.
-            </p>
-        </div>
-    </section>
-    <section class="available-devices">
-        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
-        <ul class="available-devices__list">
-            <li class="available-devices__list__item">
-                <img src="./dist/assets/dispositivos/computador.png" alt="Computador" />
-                <h4 class="title--small">Computador</h4>
-                <ul class="text">
-                    <li>Chrome OS</li>
-                    <li>MacOS</li>
-                    <li>PC Windows</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/assets/dispositivos/tv.png" alt="TV" />
-                <h4 class="title--small">TV</h4>
-                <ul class="text">
-                    <li>Amazon Fire TV</li>
-                    <li>Android TV</li>
-                    <li>Apple TV</li>
-                    <li>Chromecsat</li>
-                    <li>TVs LG</li>
-                    <li>Roku</li>
-                    <li>Samsung</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/assets/dispositivos/videogames.png" alt="Controle de Videogame" />
-                <h4 class="title--small">Videogames</h4>
-                <ul class="text">
-                    <li>PS4</li>
-                    <li>PS5</li>
-                    <li>Xbox One</li>
-                    <li>Xbox Series X</li>
-                    <li>Xbox Series S</li>
-                </ul>
-            </li>
-            <li class="available-devices__list__item">
-                <img src="./dist/assets/dispositivos/celular.png" alt="Celular e Tablet" />
-                <h4 class="title--small">Celulares e Tablets</h4>
-                <ul class="text">
-                    <li>Tablets Amazon Fire</li>
-                    <li>Celulares e Tablets Android</li>
-                    <li>iPhone e iPad</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-    <section class="faq">
-        <h2 class="title">Perguntas Frequentes</h2>
-        <ul class="faq__questions">
-            <li class="faq__questions__item">
-                <div class="faq__questions__item__question" data-faq-question>
-                    O que está incluído no Disney+?
-                </div>
-                <div class="faq__questions__item__answer text--big">
-                    Benefícios de assinar o Disney+:
-                    <br><br>
-                    <span class="faq__questions__item__answer--shift-left">• Estreias de filmes, séries originais e
-                        clássicos da Disney, Pixar, Marvel, Star Wars, National Geographic e Star.</span>
-                    <br><br>
-                    <span class="faq__questions__item__answer--shift-left">• Os torneios mais importantes do mundo e
-                        programas da ESPN ao vivo.</span>
-                    <br><br>
-                    <span class="faq__questions__item__answer--shift-left">• Até quatro telas ao mesmo tempo com o
-                        Disney+ Premium, e até duas com o Disney+ Padrão.</span>
-                    <br><br>
-                    <span class="faq__questions__item__answer--shift-left">• Downloads, criação de perfis e controle
-                        parental para personalizar a experiência por idade, de acordo com o seu plano.</span>
-                </div>
-            </li>
-            <li class="faq__questions__item">
-                <div class="faq__questions__item__question" data-faq-question>
-                    Quais formas de pagamento posso utilizar?
-                </div>
-                <div class="faq__questions__item__answer text--big">
-                    Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas
-                    parceiras como Google Play Store, App Store da Apple, Mercado Livre e provedores locais de TV,
-                    telefonia e internet.
-                </div>
-            </li>
-            <li class="faq__questions__item">
-                <div class="faq__questions__item__question" data-faq-question>
-                    Onde posso assistir ao Disney+?
-                </div>
-                <div class="faq__questions__item__answer text--big">
-                    O aplicativo do Disney+ está disponível em dispositivos móveis, navegadores, videogames,
-                    decodificadores e smart TVs. Confira a <a
-                        href="https://help.disneyplus.com/pt-BR/article/disneyplus-devices-supported/">lista completa de
-                        dispositivos compatíveis na Central de Ajuda</a>.
-                </div>
-            </li>
-        </ul>
     </section>
     <footer class="footer">
         <div class="footer__container">
-            <img class="footer__logo" src="./dist/assets/disneyplus.svg" alt="Disney+">
+            <img class="footer__logo" src="./dist/assets/logo.jpg" alt="Senhor dos Anéis">
             <ul class="footer__links">
                 <li class="footer__links__item">
-                    <div class="language-selector">
-                        <img src="./dist/assets/icones/globe.svg" alt="Globo do mundo">
-                        <select>
-                            <option>English</option>
-                            <option selected>Português</option>
-                        </select>
-                    </div>
+                    <a href="#" class="text--small">Termos e Condições</a>
                 </li>
                 <li class="footer__links__item">
-                    <a href="#" class="text--small">Termos e Condições de Uso</a>
-                </li>
-                <li class="footer__links__item">
-                    <a href="#" class="text--small">Política de privacidade</a>
-                </li>
-                <li class="footer__links__item">
-                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
-                </li>
-                <li class="footer__links__item">
-                    <a href="#" class="text--small">Anúncios personalizados</a>
-                </li>
-                <li class="footer__links__item">
-                    <a href="#" class="text--small">
-                        Dispositivos compatíveis
-                    </a>
+                    <a href="#" class="text--small">Política de Privacidade</a>
                 </li>
                 <li class="footer__links__item">
                     <a href="#" class="text--small">Ajuda</a>
                 </li>
-                <li class="footer__links__item">
-                    <a href="#" class="text--small">Sobre o Disney+</a>
-                </li>
             </ul>
-            <p class="text--small">
-                © 2025 Disney e suas empresas afiliadas. Todos os direitos reservados.
-            </p>
-            <br>
-            <p class="text--small">
-                A programação do conteúdo esportivo varia de acordo com o plano. Para usar o Disney+, é necessário ser
-                assinante e ter mais de 18 anos de idade. Conteúdo sujeito a disponibilidade. <br>
-                O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av.
-                Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M
-                73.042.962/0004-20
-            </p>
         </div>
     </footer>
     <script src="./dist/js/main.js"></script>
 </body>
-
 </html>

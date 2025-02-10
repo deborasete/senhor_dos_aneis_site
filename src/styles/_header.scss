@@ -4,20 +4,23 @@
     position: sticky;
     top: 0;
     left: 0;
-    background-color: variaveis.$corDeFundo;
+    background-color: variaveis.$corDeFundo;  
     transition: background-color .5s ease;
     z-index: 1;
+    border-bottom: 1px solid;
+
+    @media (max-width: 768px) {
+        margin-top: 0;
+    }
 
     &--is-hidden {
         background-color: transparent;
         transition: background-color .5s ease;
 
-        .header {
-            &__logo, &__links__item:first-child {
-                opacity: 0;
-                visibility: hidden;
-                transition: background-color .5s ease;
-            }
+    &__logo, &__links__item:first-child {
+        opacity: 0;
+        visibility: hidden;
+        transition: background-color .5s ease;
         }
     }
     
@@ -27,7 +30,7 @@
         justify-content: space-between;  
 
         @media (max-width: 768px) {
-            padding: 0 12px 0 20px;        
+            padding: 0 12px 0 20px;                
         }
     }
 
@@ -36,6 +39,7 @@
         width: 100%;
         margin: 5px;
         transition: opacity .5s ease;
+        filter: drop-shadow(0 0 10px variaveis.$corTextoSecundario);
 
         @media (max-width: 768px) {
             max-width: 64px;                    
@@ -48,17 +52,33 @@
         &__item {
             margin: 5px;
             transition: opacity .5s ease;
+            color: variaveis.$corTextoSecundario;
+            text-transform: uppercase;
+            padding: 8px;
+
+            &:hover {
+                color: variaveis.$corTextoSecundario;
+                text-shadow: 0 0 8px variaveis.$corTextoSecundario; 
+            }
         }        
     }
 
     .button {
         height: 50px;
+        background-color: variaveis.$corDeFundoBotaoSecundario;
+        color: variaveis.$corTextoSecundario;
+        border: 1px solid variaveis.$corTextoSecundario;
 
         @media (max-width: 768px) {
             font-size: 13px;
             padding: 8px 11px;
             height: 40px;
             letter-spacing: 0;
+        }
+
+        &:hover {
+            background-color: variaveis.$corTextoSecundario;
+            color: variaveis.$corDeFundo;
         }
     }
 }

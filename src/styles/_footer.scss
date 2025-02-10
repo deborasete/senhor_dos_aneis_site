@@ -2,6 +2,7 @@
 
 .footer {
     padding: 26px 8px;
+    background-color: variaveis.$corDeFundo;
 
     &__container {
         max-width: 1024px;
@@ -14,6 +15,7 @@
     &__logo {
         width: 80px;
         margin: 0 auto 10px;
+        filter: drop-shadow(0 0 8px variaveis.$corDeFundoBotaoPrimario);
     }
 
     &__links {
@@ -25,14 +27,17 @@
         
         &__item {
             display: inline-block;
+            margin: 5px;
 
             a {
                 text-decoration: none;
                 padding: 8px 16px;
                 display: block;
+                color: variaveis.$corTextoSecundario;
 
                 &:hover {
                     color: variaveis.$corTextoSecundario;
+                    text-shadow: 0 0 8px variaveis.$corDeFundoBotaoPrimario;
                 }
             }
         }
@@ -54,7 +59,7 @@
 
     select {
         background-color: transparent;
-        border: none;
+        border: 1px solid variaveis.$corDeFundoBotaoPrimario;
         color: variaveis.$corTextoPrincipal;
         height: 38px;
 
