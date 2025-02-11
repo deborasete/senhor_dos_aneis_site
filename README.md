@@ -21,7 +21,6 @@ This project is a fan-made platform inspired by The Lord of the Rings, where use
 ![image](https://github.com/user-attachments/assets/bc03c326-51fa-404b-9e45-974c52e8a5bf)
 
 
-
 ## Installation
 
 1. Clone this repository:
