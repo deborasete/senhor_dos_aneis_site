@@ -1,7 +1,8 @@
-# Disney+ Replica
+# The Lord of the Rings - Template Site
 
-This project is a replica of the Disney+ website, built with HTML, CSS, JavaScript, Sass and Gulp. The design is responsive and accessible across different devices.
-- You can visit the live site here: https://replica-disneyplus-rl9t.vercel.app/
+This project is a fan-made platform inspired by The Lord of the Rings, where users can explore content related to Middle-earth and sections dedicated to different themes, including The Hobbit, The Lord of the Rings and other works from J.R.R. Tolkien's universe.
+- You can visit the live site here: https://senhor-dos-aneis-site-vulc.vercel.app/
+
 
 ## Technologies Used
 - **HTML5**: Semantic HTML elements and structure.
@@ -11,25 +12,27 @@ This project is a replica of the Disney+ website, built with HTML, CSS, JavaScri
 - **Gulp**: Task automation for compiling Sass and optimizing assets.
 
 ## Features
-- **Responsive Design**: The website is fully responsive, ensuring it looks great on diferent devices.
-- **Interactive Tabs**: Users can switch between different movie categories (e.g., Upcoming, Popular, Star+) with a smooth transition.
-- **FAQ Section: A list of frequently asked questions, providing clarity on what is included in the subscription and how to use the platform.
-- **Accessibility**: The website is designed with accessibility in mind, making it user-friendly across a wide range of devices and platforms.
-- **Dynamic Content**: The content (like images of movies, pricing, and subscription plans) is structured in a way that can be easily extended or modified.
+- **Responsive Design**: Ensures a seamless experience across desktop, tablet, and mobile devices.
+- **Dynamic Tabs**: Users can navigate between different sections of Middle-earth content.
+- **Sticky Header with Auto-Hide**: The navigation bar hides when scrolling down and reappears when scrolling up.
+- **Subscription Plans**: Users can explore and select different subscription plans.
+- **Image Galleries**: Showcases iconic characters, movies, and books from Middle-earth.
+
+![image](https://github.com/user-attachments/assets/bc03c326-51fa-404b-9e45-974c52e8a5bf)
 
 
-![image](https://github.com/user-attachments/assets/9b390384-a7cd-400b-abd8-808ca54e7895)
+
 
 ## Installation
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/deborasete/replica_disneyplus.git
+    git clone https://github.com/deborasete/senhor_dos_aneis_site.git
     ```
 
 2. Navigate to the project folder:
     ```bash
-    cd replica_disneyplus
+    cd tema_filme
     ```
 
 3. Install the dependencies using `npm`:
@@ -37,14 +40,9 @@ This project is a replica of the Disney+ website, built with HTML, CSS, JavaScri
     npm install
     ```
 
-4. To start the development server and watch for changes, run:
+4. Start the development server:
     ```bash
-    npm run dev
-    ```
-
-5. To build the production version, run:
-    ```bash
-    npm run build
+    gulp
     ```
 
     
