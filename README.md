@@ -22,7 +22,6 @@ This project is a fan-made platform inspired by The Lord of the Rings, where use
 
 
 
-
 ## Installation
 
 1. Clone this repository:
